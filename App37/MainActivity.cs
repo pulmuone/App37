@@ -36,7 +36,8 @@ namespace App37
                     player.Reset();
                 }
 
-                player.SetDataSource(this, Android.Net.Uri.Parse("https://www.soundjay.com/button/sounds/beep-08b.mp3"));
+                //player.SetDataSource(this, Android.Net.Uri.Parse("https://www.soundjay.com/button/sounds/beep-08b.mp3"));
+                player.SetDataSource(this, Android.Net.Uri.Parse("http://10.10.10.10/mobile/beep-08b.mp3"));
 
                 player.Prepare();
                 player.Start();
